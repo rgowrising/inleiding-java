@@ -11,12 +11,15 @@ public class HalloRocDev {
 }
 
     public void paint(Graphics g) {
-        setBackground(Color.blue);
+        setBackground(Color.black);
         g.setColor(Color.yellow);
         g.drawRect(50, 120, 270, 120);
-        g.fillRect(20, 130, 100, 50);
+        g.fillrect(20, 130, 100, 50);
     }
 }
 int x[] = { 20,20,130,100,50};
         int y[] = { , 110, 160, 190, 100 };
         g.drawPolygon (x, y, 3);
+
+        g.fillPolygon (x1, y1, 3);
+        
