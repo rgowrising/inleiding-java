@@ -1,27 +1,23 @@
 package h01;
 
+//Voorbeeld 4.1
+
 import java.awt.*;
+import java.applet.*;
 
-/**
- * Created by piet on 31-08-16.
- */
-public class HalloRocDev {
+public class HalloRocDev extends Applet {
 
-    public static void main(String[] args) {
-        System.out.println("Hallo Rocky!");
+    public void init() {
     }
 
     public void paint(Graphics g) {
-        setBackground(Color.black);
+        setBackground(Color.blue);
         g.setColor(Color.yellow);
-        g.drawRect(50, 120, 270, 120);
-        g.fillrect(20, 130, 100, 50);
-        int x[] = { 20,20,130,100,50};
-        int y[] = { , 110, 160, 190, 100 };
-        g.drawPolygon (x, y, 3);
+        g.drawRect(20, 20, 100, 50);
+        g.fillRect(20, 80, 100, 50);
 
-        g.fillPolygon (x1, y1, 3);
-
+        // Enter new code below
+        g.drawpolygon[]
 
     }
-
+}
