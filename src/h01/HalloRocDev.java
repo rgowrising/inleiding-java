@@ -25,3 +25,4 @@ int x[] = { 20,20,130,100,50};
 
         g.fillPolygon (x1, y1, 3);
 <applet code="DrawingPolygons.class" width="350" height="300">
+
