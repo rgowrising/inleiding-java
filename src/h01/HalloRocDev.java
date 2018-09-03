@@ -17,7 +17,7 @@ public class HalloRocDev extends Applet {
         g.fillRect(20, 80, 100, 50);
 
         // Enter new code below
-        g.drawpolygon[]
+
 
     }
 }
