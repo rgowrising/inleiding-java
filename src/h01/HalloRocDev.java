@@ -9,3 +9,14 @@ public class HalloRocDev {
         System.out.println("Hallo Rocky!");
     }
 }
+
+    public void paint(Graphics g) {
+        setBackground(Color.blue);
+        g.setColor(Color.yellow);
+        g.drawRect(50, 120, 270, 120);
+        g.fillRect(20, 130, 100, 50);
+    }
+}
+int x[] = { 20,20,130,100,50};
+        int y[] = { , 110, 160, 190, 100 };
+        g.drawPolygon (x, y, 3);
