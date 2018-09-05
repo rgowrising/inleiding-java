@@ -24,17 +24,30 @@ public class Opdracht41 extends Applet {
 //        g.drawArc(20, 20, 50, 50, 120, 100);
 //        g.drawRoundRect(20, 20, 100, 75, 50, 100);
 
-        g.drawLine(100,200,200,50);
-        g.drawLine(300,200,200,50);
-        g.drawLine(100,200,300,200);
-        g.drawLine(100,200,100,400);
-        g.drawLine(300,200,300,400);
-        g.drawLine(100,400,300,400);
-        g.drawLine(150,300,150,400);
-        g.drawLine(100,300,150,300);
-        g.drawLine(220,220,280,220);
-        g.drawLine(220,240,280,240);
-        g.drawLine(220,220,280,220);
+        // Verticale lijn 1
+        g.drawLine(100,50,100,100);
+        // Verticale lijn 2
+        g.drawLine(200,100,200,50);
+
+        // Horizontale lijn 1
+        g.drawLine(200,100,100,100);
+        // Horizontale lijn 2
+        g.drawLine(100,50,200,50);
+
+        g.drawRect(80,50,20,300);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
