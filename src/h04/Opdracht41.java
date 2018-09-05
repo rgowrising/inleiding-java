@@ -35,6 +35,7 @@ public class Opdracht41 extends Applet {
         g.drawLine(100,50,200,50);
 
         g.drawRect(80,50,20,300);
+        a
 
 
 
