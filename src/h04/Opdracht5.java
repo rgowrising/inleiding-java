@@ -5,7 +5,7 @@ package h04;
 import java.awt.*;
 import java.applet.*;
 
-public class Opdracht41 extends Applet {
+public class Opdracht5 extends Applet {
 
     public void init() {
         setSize(1000,800);
