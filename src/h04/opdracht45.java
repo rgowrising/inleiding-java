@@ -13,10 +13,14 @@ public class opdracht45 extends Applet {
 
     // Stap 3: maak de methode paint()
     public void paint(Graphics g) {
-        g.setColor(Color.black);
-        g.drawOval(50,20, 50, 100);
+
+        g.drawOval(50,20, 100, 150);
         g.drawArc(20, 20, 100, 50, 90, 45);
-        g.fillRect(50, 20, 50, 100);
+        setBackground(Color.blue);
+        g.fillArc(50, 20, 100, 150, 90, 45);
+        g.setColor(Color.yellow);
+        g.fillOval(50,10,100,190);
+
 
 
 
