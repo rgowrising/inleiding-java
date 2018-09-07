@@ -29,8 +29,7 @@ public class Opdracht41 extends Applet {
         g.drawString("100", 70, 350 );
         // Staaf van Valerie
         g.setColor(Color.BLACK);
-        g.drawRect(100, 500, 100, 100);
-        g.fillArc(20, 20, 100, 50, 90, 45);
+        g.fillRect(100, 500, 100, 100);
         g.setColor(Color.yellow);
         // Staaf van Jeroen
         g.drawRect(200, 350, 100, 250);
