@@ -19,7 +19,7 @@ public class opdracht45 extends Applet {
         setBackground(Color.blue);
         g.fillArc(50, 20, 100, 150, 90, 45);
         g.setColor(Color.yellow);
-        g.fillOval(50,10,100,190);
+        setBackground(Color.magenta);
 
 
 
