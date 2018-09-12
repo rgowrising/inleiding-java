@@ -6,8 +6,14 @@ import java.awt.*;
 import java.applet.*;
 
 public class Opdracht41 extends Applet {
+    // Declareren
+    int Valerie;
+    int Jeroen;
+    int Hans;
 
     public void init() {
+        // Instantiëren
+        Valerie = 20*10;
         setSize(1000,800);
     }
 
@@ -28,81 +34,20 @@ public class Opdracht41 extends Applet {
         g.drawString("80", 70, 400 );
         g.drawString("100", 70, 350 );
         // Staaf van Valerie
+        Valerie = 20*10;
         g.setColor(Color.BLACK);
         g.fillRect(100, 500, 100, 100);
         g.setColor(Color.yellow);
         // Staaf van Jeroen
+        Jeroen=20*10;
         g.drawRect(200, 350, 100, 250);
         g.setColor(Color.green);
         g.fillRect(200, 350, 100, 250);
         // Staaf van Hans
+        Hans=20*10;
         g.drawRect(300, 400, 100, 200);
         g.setColor(Color.red);
         g.fillRect(300, 400, 100, 200);
-
-
-
-
-
-
-
-
-
-
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }
