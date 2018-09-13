@@ -7,8 +7,9 @@ public class Opdracht51 extends Applet{
     Color mainColor;
 
     public void init() {
-        mainColor = Color.magenta;
         mainColor = Color.green;
+        mainColor = Color.magenta;
+
 
     }
 
@@ -35,6 +36,8 @@ public class Opdracht51 extends Applet{
         g.setColor(Color.black);
         g.drawOval(385,20,133,60);
         g.drawString("Ovaal met taartpunt",385,100);
+
+
 
 
 
