@@ -24,7 +24,7 @@ double totaal;
 
 
     } public void paint(Graphics g) {
-        g.drawString("Prijs incusief BTW:" + totaal, 50, 60);
+
 
     }  class KnopListener implements ActionListener {
         public void actionPerformed( ActionEvent e ) {
