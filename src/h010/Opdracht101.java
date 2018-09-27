@@ -12,7 +12,7 @@ public class Opdracht101 extends Applet {
     public void init() {
         tekstvak = new TextField("", 20);
         label = new Label("Type een getal en druk op enter");
-        tekstvak.addActionListener( new TekstvakListener() );
+        tekstvak.addActionListener(new TekstvakListener());
         tekst = "";
         add(label);
         add(tekstvak);
@@ -20,19 +20,16 @@ public class Opdracht101 extends Applet {
     }
 
     public void paint(Graphics g) {
-        g.drawString("" + maxgetal, 50, 60 );
+        g.drawString("" + maxgetal, 50, 60);
     }
+
     class TekstvakListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             s = tekstvak.getText();
-            inputgetal = Integer.parseInt( s);
+            inputgetal = Integer.parseInt(s);
 
-            if ( inputgetal > maxgetal) {
-               maxgetal = inputgetal;
-            }
-            repaint();
+
         }
-
-
     }
 }
+
