@@ -37,6 +37,7 @@ public class Opdracht52 extends Applet {
         g.drawString("60", 70, 450 );
         g.drawString("80", 70, 400 );
         g.drawString("100", 70, 350 );
+        g.drawString("120",70,300);
         // Staaf van Valerie
 
         g.setColor(Color.BLACK);
